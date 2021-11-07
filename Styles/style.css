@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+}
+
+.figure {
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+}
+
+.square {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  z-index: 5;
+  width: 50%;
+  height: 50%;
+  background: #07bdfa;
+}
+
+.square:hover {
+  z-index: 20;
+  background: #4a1b19;
+}
+
+.rounded-square {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 15;
+  width: 20%;
+  height: 20%;
+  background: #fac107;
+  border-radius: 10%;
+}
+
+.round {
+  width: 25%;
+  height: 25%;
+  background: #fa0707;
+  border-radius: 50%;
+}
+
+.top-left {
+  position: absolute;
+  top: 12.5%;
+  left: 12.5%;
+}
+
+.top-left:hover {
+  z-index: 25;
+  background: #450000;
+}
+
+.top-right {
+  position: absolute;
+  top: 12.5%;
+  right: 12.5%;
+}
+
+.top-right:hover {
+  z-index: 30;
+  background: #004545;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 12.5%;
+  left: 12.5%;
+}
+
+.bottom-left:hover {
+  background: #450039;
+  z-index: 35;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 12.5%;
+  right: 12.5%;
+}
+
+.bottom-right:hover {
+  z-index: 40;
+  background: #1e0045;
+}
